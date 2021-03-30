@@ -1,0 +1,8 @@
+{
+  "name": "@web-pg/preview",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/web-playground/preview",
+  "author": "lif3ng",
+  "license": "MIT"
+}
