@@ -4,5 +4,17 @@
   "main": "index.js",
   "repository": "https://github.com/web-playground/preview",
   "author": "lif3ng",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": ">=6",
+    "lint-staged": ">=10",
+    "prettier": "2.2.1",
+    "rollup": "^2.44.0"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
 }
